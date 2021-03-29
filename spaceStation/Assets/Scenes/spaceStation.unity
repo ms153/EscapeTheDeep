@@ -32855,7 +32855,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1236480543}
   m_LocalRotation: {x: -0, y: 0.9997845, z: -0, w: -0.020756552}
-  m_LocalPosition: {x: 0.452, y: 0.922, z: 6.467}
+  m_LocalPosition: {x: 3.202, y: 0.922, z: 14.97}
   m_LocalScale: {x: 1, y: 0.9, z: 1}
   m_Children:
   - {fileID: 1516262893}
@@ -32913,8 +32913,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 219285bb277cacb43b5daab97f03a3f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  viewRadius: 10
-  viewAngle: 90
+  viewRadius: 20
+  viewAngle: 120
   targetMask:
     serializedVersion: 2
     m_Bits: 512
@@ -32926,8 +32926,8 @@ MonoBehaviour:
   Player: {fileID: 1938733205}
   wanderRadius: 55
   wanderTimer: 1
-  hearingRadius: 3
-  speed: 4
+  hearingRadius: 4
+  speed: 5
   deathTime: 0
   AI_Enable: 1
   PlayerAnimControl: {fileID: 1470789637}
